@@ -318,13 +318,14 @@ button {
   }
 }
 
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 577px) and (max-width: 992px) {
   .header {
     padding: 20px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 1px solid red; */
   }
 
   .logo {
@@ -338,17 +339,15 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    /* border: 1px solid red; */
   }
 
   nav ul {
     display: flex;
     flex-direction: row;
     gap: 15px;
-  }
-
-  nav ul li {
-    margin: 0;
-    list-style: none;
+    /* border: 1px solid red; */
+    margin-left: 100px;
   }
 
   nav button {
